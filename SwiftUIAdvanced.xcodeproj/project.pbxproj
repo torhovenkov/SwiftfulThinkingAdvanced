@@ -12,6 +12,8 @@
 		291062542B47937600737DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291062532B47937600737DF3 /* Assets.xcassets */; };
 		291062572B47937600737DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 291062562B47937600737DF3 /* Preview Assets.xcassets */; };
 		2910625E2B4898F200737DF3 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910625D2B4898F200737DF3 /* CustomShapes.swift */; };
+		291062602B489D4700737DF3 /* CustomCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910625F2B489D4700737DF3 /* CustomCurves.swift */; };
+		291062622B48B15D00737DF3 /* CustomAnimatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291062612B48B15D00737DF3 /* CustomAnimatableData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		291062532B47937600737DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291062562B47937600737DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2910625D2B4898F200737DF3 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		2910625F2B489D4700737DF3 /* CustomCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurves.swift; sourceTree = "<group>"; };
+		291062612B48B15D00737DF3 /* CustomAnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatableData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				2910624F2B47937400737DF3 /* SwiftUIAdvancedApp.swift */,
 				291062512B47937400737DF3 /* ContentView.swift */,
 				2910625D2B4898F200737DF3 /* CustomShapes.swift */,
+				2910625F2B489D4700737DF3 /* CustomCurves.swift */,
+				291062612B48B15D00737DF3 /* CustomAnimatableData.swift */,
 				291062532B47937600737DF3 /* Assets.xcassets */,
 				291062552B47937600737DF3 /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291062622B48B15D00737DF3 /* CustomAnimatableData.swift in Sources */,
+				291062602B489D4700737DF3 /* CustomCurves.swift in Sources */,
 				2910625E2B4898F200737DF3 /* CustomShapes.swift in Sources */,
 				291062522B47937400737DF3 /* ContentView.swift in Sources */,
 				291062502B47937400737DF3 /* SwiftUIAdvancedApp.swift in Sources */,
